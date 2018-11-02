@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "koa": "^2.6.1",
-    "koa-bodyparser": "^4.2.1"
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
   },
   "scripts": {
     "start": "babel-node --config-file ../.babelrc server.js"

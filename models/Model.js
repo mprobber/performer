@@ -3,7 +3,7 @@
 export default class Model {
   data: Object;
 
-  constructor(s: string) {
+  constructor(s?: ?string) {
     this.data = s ? JSON.parse(s) : {};
   }
 
