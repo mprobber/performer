@@ -1,0 +1,15 @@
+{
+  "name": "performer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "koa": "^2.6.1",
+    "koa-bodyparser": "^4.2.1"
+  },
+  "scripts": {
+    "start": "babel-node --config-file ../.babelrc server.js"
+  },
+  "peerDependencies": {
+    "webpack-dev-server": "^3.1.10"
+  }
+}
