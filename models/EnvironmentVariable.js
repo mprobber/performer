@@ -19,4 +19,8 @@ export default class EnvironmentVariable extends Model implements Schema {
   get key() {
     return this.data.name;
   }
+
+  serialize = () => {
+    return { name: this.name, value: this.value };
+  };
 }

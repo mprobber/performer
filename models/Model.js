@@ -11,7 +11,7 @@ export default class Model {
     throw new Error('Method must be implemented on child class of Model');
   }
 
-  serialize = () => {
-    return JSON.stringify(this.data);
+  serialize = (): Object => {
+    return {};
   };
 }
